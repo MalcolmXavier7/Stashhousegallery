@@ -221,19 +221,67 @@ const StashHouseGalleryStore = () => {
             </div>
           </div>
 
-          {/* Info Section */}
-          <section style={{ backgroundColor: '#000', color: '#fff', padding: '3rem 2rem', textAlign: 'center' }}>
-            <h2 style={{ fontSize: '28px', fontWeight: 900, marginBottom: '1.5rem' }}>Art For All</h2>
-            <p style={{ fontSize: '14px', lineHeight: 1.8, marginBottom: '2rem', maxWidth: '600px', margin: '0 auto 2rem' }}>
-              Malcolm Xavior Seven, multidisciplinary artist and technologist. StashHouse Gallery brings ownership within reach. $25 prints. $100 originals. $500 premiums. Half deposit. 3 months flexible payment. Art and hard times.
-            </p>
-            <div style={{ fontSize: '11px', letterSpacing: '1px', textTransform: 'uppercase', color: '#c4ff00' }}>
-              <div style={{ marginBottom: '0.75rem' }}>✓ FREE SHIPPING ON ORDERS $50+</div>
-              <div style={{ marginBottom: '0.75rem' }}>✓ HALF DEPOSIT SECURES</div>
-              <div style={{ marginBottom: '0.75rem' }}>✓ 3 MONTH PAYMENT</div>
-              <div style={{ marginBottom: '0.75rem' }}>✓ OWNERSHIP LOCKED IN</div>
+        {/* Info Section */}
+        <section style={{ backgroundColor: '#000', color: '#fff', padding: '3rem 2rem', textAlign: 'center' }}>
+          <h2 style={{ fontSize: '28px', fontWeight: 900, marginBottom: '1.5rem' }}>Art For All</h2>
+          <p style={{ fontSize: '14px', lineHeight: 1.8, marginBottom: '2rem', maxWidth: '600px', margin: '0 auto 2rem' }}>
+            Malcolm Xavior Seven, multidisciplinary artist and technologist. StashHouse Gallery brings ownership within reach. $25 prints. $100 originals. $500 premiums. Half deposit. 3 months flexible payment. Art and hard times.
+          </p>
+          <div style={{ fontSize: '11px', letterSpacing: '1px', textTransform: 'uppercase', color: '#c4ff00' }}>
+            <div style={{ marginBottom: '0.75rem' }}>✓ FREE SHIPPING ON ORDERS $50+</div>
+            <div style={{ marginBottom: '0.75rem' }}>✓ HALF DEPOSIT SECURES</div>
+            <div style={{ marginBottom: '0.75rem' }}>✓ 3 MONTH PAYMENT</div>
+            <div style={{ marginBottom: '0.75rem' }}>✓ OWNERSHIP LOCKED IN</div>
+          </div>
+        </section>
+
+        {/* Footer Section */}
+        <footer style={{ backgroundColor: '#000', color: '#fff', padding: '3rem 2rem' }}>
+          <div style={{ maxWidth: '1200px', margin: '0 auto', textAlign: 'center', marginBottom: '2rem' }}>
+            <h3 style={{ fontSize: '24px', fontWeight: 300, fontStyle: 'italic', marginBottom: '1.5rem', letterSpacing: '0.5px' }}>
+              SELF-DISCIPLINE
+            </h3>
+          </div>
+          <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '2rem' }}>
+            <div style={{ flex: 1, minWidth: '200px' }}>
+              <h4 style={{ fontSize: '14px', fontWeight: 600, marginBottom: '1rem', letterSpacing: '0.5px' }}>Navigate</h4>
+              <div style={{ fontSize: '13px', lineHeight: 1.8, color: '#999' }}>
+                <div>Home</div>
+                <div>About</div>
+                <div>Merchandise</div>
+                <div>Contact</div>
+              </div>
             </div>
-          </section>
+            <div style={{ flex: 1, minWidth: '200px' }}>
+              <h4 style={{ fontSize: '14px', fontWeight: 600, marginBottom: '1rem', letterSpacing: '0.5px' }}>Links</h4>
+              <div style={{ fontSize: '13px', lineHeight: 1.8, color: '#999' }}>
+                <div>Instagram</div>
+                <div>Twitter</div>
+                <div>TikTok</div>
+                <div>YouTube</div>
+              </div>
+            </div>
+            <div style={{ flex: 1, minWidth: '200px' }}>
+              <h4 style={{ fontSize: '14px', fontWeight: 600, marginBottom: '1rem', letterSpacing: '0.5px' }}>Newsletter</h4>
+              <p style={{ fontSize: '13px', lineHeight: 1.6, color: '#999', marginBottom: '1rem' }}>
+                Get first access to drops, member-only sales, and surprise gifts.
+              </p>
+              <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem' }}>
+                <input
+                  type="email"
+                  placeholder="you@example.com"
+                  style={{ flex: 1, padding: '0.75rem', border: '1px solid #000', backgroundColor: '#fff', fontSize: '13px', color: '#000' }}
+                />
+                <button style={{ padding: '0.75rem 1.5rem', backgroundColor: '#c4ff00', color: '#000', border: 'none', fontSize: '13px', fontWeight: 600, cursor: 'pointer' }}>
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+          <div style={{ textAlign: 'center', marginTop: '2rem', paddingTop: '1.5rem', borderTop: '1px solid #333', fontSize: '12px', color: '#666' }}>
+            © {new Date().getFullYear()} StashHouse Gallery. All rights reserved.
+          </div>
+        </footer>
         </main>
       </div>
 
